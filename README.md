@@ -1,13 +1,10 @@
-# Calorie-Burner-Predictor
-A machine learning application that predicts the number of calories burned during exercise based on user inputs such as weight, exercise duration, exercise type, and gender. Built with Python, Decision Tree Regression, and a Streamlit web interface for easy interaction.
----
+#  Calorie Burner Predictor
 
-## Table of Contents
-- [Project Overview](#project-overview)  
-- [Features](#features)  
-
+A machine learning application that predicts the **number of calories burned** during exercise based on user inputs such as weight, exercise duration, exercise type, and gender. Built with **Python**, **Decision Tree Regression**, and a **Streamlit web interface** for easy interaction.
 
 ---
+
+
 
 ## Project Overview
 The Calorie Burner Predictor helps users estimate the **calories burned during exercise**. It leverages a **Decision Tree Regression model** trained on sample data of weight, exercise type, duration, and gender. This project provides a **user-friendly interface** for real-time predictions.
@@ -21,17 +18,3 @@ The Calorie Burner Predictor helps users estimate the **calories burned during e
 - Supports **multiple exercise types**: Running, Walking, Yoga, Cycling.  
 - Reset button to **clear inputs**.  
 
----
-
-+-----------------------------------------+
-|          Calorie Burn Predictor         |
-+-----------------------------------------+
-| Weight (kg): [ 70 ]                     |
-| Duration (min): [ 30 ]                  |
-| Exercise Type: [ Running ▼ ]            |
-| Gender: [ Male ○ Female ● ]             |
-+-----------------------------------------+
-|           [ Predict Calories ]          |
-+-----------------------------------------+
-| Calories Burned: 250 kcal               |
-+-----------------------------------------+
